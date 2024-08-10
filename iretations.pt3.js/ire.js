@@ -19,17 +19,21 @@ function getTotalIncome(transactions) {
 let totalIncome = getTotalIncome(transactions);
 console.log(totalIncome);
 
-function getTotalIncome(transactions) {
+function getTotalExpenses(transactions) {
   return transactions
     .filter(([type]) => type === "expense")
     .reduce((total, [, amount]) => total + amount, 0);
 }
 let totalExpenses = getTotalExpenses(transactions){
-console.log(totalIExpenses);
+console.log(totalIExpenses);}
 
 function getNetTotal(transaction);
 const totalIncome = getTotalIncome(transactions)
 const totalExpenses = getTotalExpenses(transactions)
 return totalIncome - totalExpenses
 
-}console.log(getNetTotal)
+console.log(getNetTotal)
+
+let transactionAbove500=transactions.filter(([type,amount])=>amount>500)
+console.log(transactionAbove500)
+
