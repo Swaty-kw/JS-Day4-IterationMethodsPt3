@@ -28,8 +28,8 @@ let totalExpenses = getTotalExpenses(transactions){
 console.log(totalIExpenses);
 
 function getNetTotal(transaction);
-let totalIncome= getTotalIncome
-let totalIExpenses = getTotalExpenses
+const totalIncome = getTotalIncome(transactions)
+const totalExpenses = getTotalExpenses(transactions)
 return totalIncome - totalExpenses
 
 }console.log(getNetTotal)
